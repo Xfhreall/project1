@@ -5,7 +5,7 @@ import {
   faWhatsapp,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import "../styling/css/footer.css";
+import "../styling/scss/footer.scss";
 
 const Footer = () => {
   return (
@@ -58,11 +58,6 @@ const Footer = () => {
               </a>
             </div>
           </div>
-        </div>
-        <div className="author">
-          <p data-aos="fade-up"  >
-            Made by @RisqiFahreal
-          </p>
         </div>
       </div>
     </footer>

@@ -50,6 +50,8 @@
         .isiKontak {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
             width: 90%;
             margin: 7% auto;
             background-color: var(--card-content);
@@ -59,7 +61,12 @@
             -moz-border-radius: 10px;
             -ms-border-radius: 10px;
             -o-border-radius: 10px;
+
+            .keterangan {
+                color:aliceblue;
+            }
         }
+
 
     }
 }

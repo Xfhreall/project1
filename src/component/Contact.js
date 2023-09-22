@@ -1,4 +1,4 @@
-import "../styling/css/contact.css";
+import "../styling/scss/contact.scss";
 
 const Contact = () => {
   return (
@@ -10,7 +10,11 @@ const Contact = () => {
               Hubungi Kami
             </h1>
           </div>
-          <div className="isiKontak"></div>
+          <div className="isiKontak">
+            <h1 className="keterangan">
+              /Pages ini masih dalam proses developing
+            </h1>
+          </div>
         </div>
       </section>
     </div>

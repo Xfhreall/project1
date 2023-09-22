@@ -1,5 +1,5 @@
 import logo from "../assets/asset logo/logo.png";
-import "../styling/css/aboutPage.css";
+import "../styling/scss/aboutPage.scss";
 import Lottie from "lottie-react";
 import IngAnimation from "../assets/lottie/84565-about-us.json";
 

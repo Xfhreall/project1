@@ -1,36 +1,34 @@
-#hubungi {
+#tentang {
   width: 100%;
-  height: 140vh;
+  height: 115vh;
   display: flex;
   background-color: var(--black-color);
-  justify-content: center;
 }
-#hubungi .isiContact {
+#tentang .isi {
   display: flex;
   flex-direction: column;
   width: 80%;
-  margin: 4em;
-  background-color: var(--content);
+  margin: 5% 10% 0;
   border-radius: 14px;
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
   -ms-border-radius: 14px;
   -o-border-radius: 14px;
 }
-#hubungi .isiContact .titleContact {
+#tentang .isi .titleA {
   position: relative;
   width: 100%;
   margin-top: 4%;
   text-align: start;
 }
-#hubungi .isiContact .titleContact h1 {
+#tentang .isi .titleA h1 {
   position: relative;
   letter-spacing: 2px;
   color: #1abc9c;
   font-weight: 700;
   font-size: 38px;
 }
-#hubungi .isiContact .titleContact h1::after {
+#tentang .isi .titleA h1::after {
   content: "";
   width: 6em;
   height: 4px;
@@ -44,16 +42,40 @@
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
 }
-#hubungi .isiContact .isiKontak {
+#tentang .isi .isiTentang {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
+  width: 100%;
   margin: 7% auto;
-  background-color: var(--card-content);
-  height: 85vh;
+  height: 60vh;
+}
+#tentang .isi .isiTentang .teksTentang {
+  height: 330px;
+  width: 600px;
+  margin: auto;
+  color: var(--sky-color);
+  text-align: center;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-}/*# sourceMappingURL=contact.css.map */
+}
+#tentang .isi .isiTentang .teksTentang img {
+  height: 80px;
+  width: 300px;
+  margin-top: 30px;
+}
+#tentang .isi .isiTentang .teksTentang p {
+  margin: 3% auto;
+  width: 60%;
+  font-weight: 450;
+  letter-spacing: 1px;
+}
+#tentang .elemenTentang {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: nowrap;
+}/*# sourceMappingURL=aboutPage.css.map */

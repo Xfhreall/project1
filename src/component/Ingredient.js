@@ -1,4 +1,4 @@
-import "../styling/css/ingredient.css";
+import "../styling/scss/ingredient.scss";
 import Lottie from "lottie-react";
 import IngAnimation from "../assets/lottie/webDevelopment.json";
 
@@ -15,7 +15,7 @@ const Ingredient = () => {
         </div>
         <div className="ing-text">
           <div className="ing-text-title">
-            <h1 style={{ marginLeft: "1em" }}>KAKAK</h1>
+            <h1 style={{ marginLeft: "1em" }}>/Page ini masih dalam progres developing</h1>
           </div>
         </div>
       </div>

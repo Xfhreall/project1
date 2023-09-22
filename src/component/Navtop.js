@@ -1,5 +1,5 @@
 import logo from "../assets/asset logo/logo.png";
-import "../styling/css/navtop.css";
+import "../styling/scss/navtop.scss";
 
 const Navtop = () => {
   return (

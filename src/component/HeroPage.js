@@ -1,5 +1,5 @@
 // import logoHP from "../assets/img/Group 2.png";
-import "../styling/css/heroPage.css";
+import "../styling/scss/heroPage.scss";
 import Lottie from "lottie-react";
 import welcomeAnimation from "../assets/lottie/support.json";
 
@@ -27,7 +27,7 @@ const HeroPage = () => {
         </h2>
         <div className="button" id="button-3">
           {/* <div id="circle"></div> */}
-          <a href="#tentang">Telusuri</a>
+          <a href="#komposisi">Telusuri</a>
         </div>
       </div>
 
