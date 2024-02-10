@@ -44,8 +44,8 @@ const About = () => {
                   Adalah salah satu ekskul di pondok pesantren modern Ar-Rahmat
                   yang berkecimpung dibidang literasi. <br />
                   Art Times mulai dibentuk pada tahun 2016 dengan karya
-                  pertamanya yang berjudul{" "}
-                  <strong>"ART TIMES #1 Kami Kembali"</strong>
+                  pertamanya yang berjudul
+                  <strong> "ART TIMES #1 Kami Kembali"</strong>
                 </p>
               </div>
             </div>

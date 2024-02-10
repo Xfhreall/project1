@@ -24,8 +24,8 @@ const Navtop = () => {
             <a href="#produk">Karya</a>
           </li>
           <li>
-            <a className="aktif" href="#hubungi">
-              Hubungi
+            <a className="aktif" href="#footerPage">
+              Contact
             </a>
           </li>
         </ul>
@@ -55,8 +55,8 @@ const Navtop = () => {
             <a href="#produk">Karya</a>
           </li>
           <li>
-            <a className="aktif" href="#hubungi">
-              Hubungi
+            <a className="aktif" href="#footerPage">
+              Contact
             </a>
           </li>
         </ul>

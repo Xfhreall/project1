@@ -16,6 +16,8 @@
   width: max-content;
   .ing-text {
     display: flex;
+    flex-direction: column;
+    color: #fff;
 
     .ing-text-title {
       justify-content: center;

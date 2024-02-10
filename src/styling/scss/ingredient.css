@@ -8,16 +8,15 @@
 }
 
 .ing-contain {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: 1fr 1fr;
-  width: max-content;
-}
-.ing-contain .ing-text {
   display: flex;
+  flex-direction: column;
+}
+.ing-text {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
 }
 .ing-contain .ing-text .ing-text-title {
   justify-content: center;
   color: #fff;
-}/*# sourceMappingURL=ingredient.css.map */
+} /*# sourceMappingURL=ingredient.css.map */
